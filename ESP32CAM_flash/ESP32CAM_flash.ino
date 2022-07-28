@@ -9,7 +9,7 @@
 
 
 //Definición de pines
-#define LAMP 4 //Se selecciona el pin donde se encuentra el led flash
+#define LAMP 5 //Se selecciona el pin donde se encuentra el led flash
 
 //Inicialización del programa
 void setup() //Estructura principal
@@ -21,7 +21,7 @@ void setup() //Estructura principal
 void loop() //Función bucle
 {
   digitalWrite (FLASH, HIGH); //Encender led. 2 parámetros, pin a controlar, estado (0,LOW,FALSE,1,HIGH,TRUE)
-  delay (500); //Espera de 2 segundos
+  delay (300); //Espera de 2 segundos
   digitalWrite (FLASH, LOW); //Apagar led
   delay (500); //Espera de 2 segundos
 } //Fin de void loop()
